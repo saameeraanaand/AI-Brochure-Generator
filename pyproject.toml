@@ -1,0 +1,12 @@
+[project]
+name = "ai-brochure-generator"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "beautifulsoup4>=4.12.3",
+    "langchain==0.3.27",
+    "langchain-community==0.3.27",
+    "langchain-core==0.3.76",
+    "langchain-mistralai>=0.2.0",
+    "tavily-python>=0.5.0",
+]
